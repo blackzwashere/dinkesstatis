@@ -6,6 +6,7 @@
 */
 
 @charset "UTF-8";
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,7 +15,12 @@ body {
   color: #333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -301,7 +307,8 @@ span {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
-.nav-menu, .nav-menu * {
+.nav-menu,
+.nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -320,12 +327,12 @@ span {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -383,11 +390,12 @@ span {
   transition: 0.3s;
 }
 
-.nav-menu li:hover > a, .nav-menu > .menu-active > a {
+.nav-menu li:hover>a,
+.nav-menu>.menu-active>a {
   color: #2d3e50;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 10px;
 }
 
@@ -411,7 +419,7 @@ span {
   text-transform: none;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   color: #2d3e50;
 }
 
@@ -624,11 +632,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li + li {
+.breadcrumbs ol li+li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li + li::before {
+.breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -639,9 +647,11 @@ section {
   .breadcrumbs .d-flex {
     display: block !important;
   }
+
   .breadcrumbs ol {
     display: block;
   }
+
   .breadcrumbs ol li {
     display: inline-block;
   }
@@ -757,7 +767,7 @@ section {
 
 /* Screenshots Section
 --------------------------------*/
-.owl-dot.active > span {
+.owl-dot.active>span {
   height: 10px !important;
   width: 10px !important;
 }
@@ -780,7 +790,8 @@ section {
   margin-top: 10px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
   background: #2d3e50;
 }
 
@@ -880,6 +891,7 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -891,6 +903,7 @@ section {
     transform: scale(0.6, 0.6);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -902,6 +915,7 @@ section {
     transform: scale(0.1, 0.1);
     opacity: 1;
   }
+
   100% {
     transform: scale(1, 1);
     opacity: 0;
@@ -963,7 +977,7 @@ section {
   color: #2d3e50;
 }
 
-#team .team-block .team-content ul > span {
+#team .team-block .team-content ul>span {
   display: inline-block;
   font-size: 14px;
   font-weight: 300;
@@ -995,8 +1009,8 @@ section {
   top: -29px;
 }
 
-#testimonials .top-top > h2 {
-  font-family: "Roboto" sans-serif;
+#testimonials .top-top>h2 {
+  font-family: "Roboto"sans-serif;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -1004,7 +1018,7 @@ section {
   text-transform: capitalize;
 }
 
-#testimonials .top-top > h4 {
+#testimonials .top-top>h4 {
   font: 700 12px Lato, sans-serif;
 }
 
@@ -1155,7 +1169,7 @@ section {
   color: #2d3e50;
 }
 
-#blog .block-blog .content-blog > span {
+#blog .block-blog .content-blog>span {
   float: left;
   font-size: 12px;
 }
@@ -1329,7 +1343,7 @@ section {
   font-weight: 600;
 }
 
-#contact .php-email-form .error-message br + br {
+#contact .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
@@ -1362,13 +1376,15 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-#contact .php-email-form input, #contact .php-email-form textarea {
+#contact .php-email-form input,
+#contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+#contact .php-email-form input::focus,
+#contact .php-email-form textarea::focus {
   background-color: #2d3e50;
 }
 
@@ -1396,6 +1412,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1405,6 +1422,7 @@ section {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1437,7 +1455,7 @@ section {
   letter-spacing: 1px;
 }
 
-.footer .list-menu > h4 {
+.footer .list-menu>h4 {
   color: #fff;
   padding-bottom: 20px;
 }
@@ -1457,7 +1475,8 @@ section {
   padding: 25px;
 }
 
-.footer .copyrights p, .footer .copyrights .credits {
+.footer .copyrights p,
+.footer .copyrights .credits {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -1466,7 +1485,8 @@ section {
   letter-spacing: 0;
 }
 
-.footer .copyrights p a, .footer .copyrights .credits a {
+.footer .copyrights p a,
+.footer .copyrights .credits a {
   letter-spacing: 0;
   color: #2d3e50;
 }

@@ -287,10 +287,10 @@ var ModalVideo = function () {
     value: function getYoutubeUrl(youtube, videoId) {
       var query = this.getQueryString(youtube);
       if (youtube.nocookie === true) {
-        return '//www.youtube-nocookie.com/embed/' + videoId + '?' + query;
+        return '//www.youtube-nocookie.com/embed/' + videoId + query;
       }
 
-      return '//www.youtube.com/embed/' + videoId + '?' + query;
+      return '//www.youtube.com/embed/' + videoId + query;
     }
   }, {
     key: 'getFacebookUrl',
